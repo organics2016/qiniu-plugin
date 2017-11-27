@@ -180,7 +180,6 @@ public class QiniuPublisher extends Recorder {
 		public QiniuProfile getProfileByName(String profileName) {
 			List<QiniuProfile> profiles = this.getProfiles();
 			for (QiniuProfile profile : profiles) {
-				System.console().printf(profile.getName() + "\n");
 				if (profileName.equals(profile.getName())) {
 					return profile;
 				}
