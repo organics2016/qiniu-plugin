@@ -8,4 +8,4 @@ Jenkins 的七牛插件,可以将构建好的结果上传到七牛.
 3. 选择要上传的文件和 bucket
 ![](https://gitcafe.com/ipy/qiniu-plugin/raw/master/resources/projectoption.png)
 
-插件包下载地址: [qiniu-plugin](http://jenkins-qiniu.qiniudn.com/target%2Fqiniu-plugin.hpi)
+插件包下载地址: [qiniu-plugin](http://orxyhncmg.bkt.clouddn.com/qiniu-plugin.hpi)
