@@ -21,6 +21,10 @@
       <f:entry title="要上传到的 zone" field="qiniuzone">
         <f:textbox name="qiniu.zone" value="${e.zone}" />
       </f:entry>
+
+      <f:entry title="上传到服务器后要删除的路径" field="qiniusubkey">
+        <f:textbox name="qiniu.subKey" value="${e.subKey}" />
+      </f:entry>
       <!--
       <f:entry title="重命名">
 	    <f:textbox name="qiniu.formatKey" value="${e.formatKey}"/>
