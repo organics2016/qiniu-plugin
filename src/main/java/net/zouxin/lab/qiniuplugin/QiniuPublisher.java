@@ -110,7 +110,7 @@ public class QiniuPublisher extends Recorder {
                 if (entry.noUploadOnExists) {
                     key = null;
                 } else {
-                    key = entry.zone + ":" + entry.bucket + ":" + key;
+                    key = key.substring(key.indexOf("/"));
                 }
 
                 try {
