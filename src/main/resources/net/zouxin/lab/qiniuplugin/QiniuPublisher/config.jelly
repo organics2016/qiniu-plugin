@@ -17,6 +17,10 @@
       <f:entry title="要上传到的 bucket" field="qiniubucket">
         <f:textbox name="qiniu.bucket" value="${e.bucket}" />
       </f:entry>
+
+      <f:entry title="要上传到的 zone" field="qiniuzone">
+        <f:textbox name="qiniu.zone" value="${e.zone}" />
+      </f:entry>
       <!--
       <f:entry title="重命名">
 	    <f:textbox name="qiniu.formatKey" value="${e.formatKey}"/>
